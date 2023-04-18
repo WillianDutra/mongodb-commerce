@@ -1,3 +1,6 @@
+// Adicione o campo ultimaModificacao com a data corrente somente no sanduíche Big Mac
+
+use('commerce')
 db.produtos.updateMany(
   { nome: "Big Mac" },
   {

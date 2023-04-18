@@ -1,1 +1,4 @@
+// Retorne a quantidade de documentos inseridos na coleção produtos
+
+use('commerce')
 db.produtos.find({}).count();

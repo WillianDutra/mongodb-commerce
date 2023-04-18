@@ -1,3 +1,6 @@
+// Conte quantos produtos contém Mc no nome, sem considerar letras maiúsculas ou minúsculas
+
+use('commerce')
 db.produtos.countDocuments(
   { nome: { $regex: /mc/i } },
 );

@@ -1,3 +1,6 @@
+// Ordene em todos os documentos os valores do array valoresNutricionais pelo campo percentual de forma decrescente
+
+use('commerce')
 db.produtos.updateMany(
   {},
   {
