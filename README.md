@@ -1,13 +1,39 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Commerce
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Commerce é um projeto para fixação dos aprendizados iniciais com MongoDB. Utilizando alguns dados do cardápio do McDonalds, para consultar e atualizar informações.
+
+As querys estão separadas em arquivos, conforme requirido para avaliação da Trybe.
+## Apredizados com este projeto
+
+- MongoDB
+- Docker
+
+## Instalação
+
+Caso queira instalar o projeto e dar uma olhada mais de perto.
+
+```bash
+1. Clonando o projeto
+  git clone git@github.com:WillianDutra/mongogb-commerce.git
+
+2. Entrando na pasta
+  cd mongodb-commerce
+
+3. Instalando as dependências
+  npm install
+
+4. Iniciando docker
+  docker-compose up -d
+
+5. Crie uma conexão na extensão do MongoDB com a URL:
+  mongodb://localhost:27017
+
+6. Entrando no container
+  docker exec -it MongoDB bash
+
+7. Importando os dados
+  mongorestore -d commerce /assets/produtos/produtos.bson
+
+```
+Agora é só entrar nos arquivos e rodar o código.
