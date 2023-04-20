@@ -15,7 +15,7 @@ Caso queira instalar o projeto e dar uma olhada mais de perto.
 
 ```bash
 1. Clonando o projeto
-  git clone git@github.com:WillianDutra/mongogb-commerce.git
+  git clone git@github.com:WillianDutra/mongodb-commerce.git
 
 2. Entrando na pasta
   cd mongodb-commerce
