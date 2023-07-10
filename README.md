@@ -4,7 +4,7 @@
 Commerce é um projeto para fixação dos aprendizados iniciais com MongoDB. Utilizando alguns dados do cardápio do McDonalds, para consultar e atualizar informações.
 
 As querys estão separadas em arquivos, conforme requirido para avaliação da Trybe.
-## Apredizados com este projeto
+## Aprendizados com este projeto
 
 - MongoDB
 - Docker
